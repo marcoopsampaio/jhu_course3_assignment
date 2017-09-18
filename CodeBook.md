@@ -18,7 +18,7 @@ To produce this secondary dataset we used the signal data that was produced in t
 
 1. **Experimental conditions:** The experiment consisted of the measurement of a time series at a rate of 50 Hz. The original description is as follows:
 > *The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (walking, walking upstairs, walking downstairs, sitting, standing, laying) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz.*
-2. ** Original features estimated at each time step:** The experiment produced time series for the time-domain signal or the frequency-domain signal for various features. At each time step a signal is measured and its properties are estimated. The steps are:
+2. **Original features estimated at each time step:** The experiment produced time series for the time-domain signal or the frequency-domain signal for various features. At each time step a signal is measured and its properties are estimated. The steps are:
 	* **Raw signal measurement**: Here there is a raw accelerometer and gyroscope signal thaat are measured and then the raw features of interest are computed. To understand the meaning of each feature we quote the original text. 
 
     For the time domain signal:
