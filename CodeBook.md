@@ -30,7 +30,7 @@ To produce this secondary dataset we used the signal data that was produced in t
 
 ## New Data Set Description and Key
 
-Using the data provided for the mean and standard deviation of each of the original features, we  computed, for each ("ActivityType","SubjectID") pair, the average of each feature. This is provided as a new data set in the file "HumanActvRecogSmartPhones_averages_of_series.csv". The complete list of variables in the tabular data is as follows (all variables are numeric with values in the range [-1:1] except for the first two):
+Using the data provided for the mean and standard deviation of each of the original features, we  computed, for each ("ActivityType","SubjectID") pair, the average of each feature. This is provided as a new data set in the file "HumanActvRecogSmartPhones_averages_of_series.txt". The complete list of variables in the tabular data is as follows (all variables are numeric with values in the range [-1:1] except for the first two):
 1. ActivityType
 	* 6 Levels: (walking, walking upstairs, walking downstairs, sitting, standing, laying)
 2. SubjectID

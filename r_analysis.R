@@ -83,6 +83,6 @@ final_data_set<-full_data_set %>% group_by_at(vars(one_of(c("ActivityType","Subj
 # Rename variables so that it is clear that these are transformed variables and that an average was computed. 
 colnames(final_data_set)[3:length(colnames(final_data_set))]<-paste("Average",descriptive_names,sep="")
 # Output data to file
-final_data_set %>% write.csv(.,file = "HumanActvRecogSmartPhones_averages_of_series.csv")
+final_data_set %>% write.table(.,file = "HumanActvRecogSmartPhones_averages_of_series.txt",row.names=FALSE)
 
 
