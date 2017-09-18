@@ -21,11 +21,11 @@ To produce this secondary dataset we used the signal data that was produced in t
 2. **Original features estimated at each time step:** The experiment produced time series for the time-domain signal or the frequency-domain signal for various features. At each time step a signal is measured and its properties are estimated. The steps are:
 	* **Raw signal measurement**: Here there is a raw accelerometer and gyroscope signal thaat are measured and then the raw features of interest are computed. To understand the meaning of each feature we quote the original text. 
 
-    For the time domain signal:
-	> *The features selected [...] come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ [...] time domain signals (prefix 't' to denote time) [...] the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) [...] the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). *
+    	For the time domain signal:
+		> *The features selected [...] come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ [...] time domain signals (prefix 't' to denote time) [...] the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) [...] the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). *
 	
-    For the frequency domain signal:
-	> *Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). *
+    	For the frequency domain signal:
+		> *Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). *
 	* **Parameter estimation:**  For each raw signal measurement, at each time step, the signal mean and standard deviation are estimated (together with various other quantities that we will not use). In the next section we provide a list of the variables that we used to produced the new dataset.
 
 ## New Data Set Description and Key
